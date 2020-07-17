@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1567490f-db19-4980-878d-61005a7f20bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/find-min-val.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find-first-unique.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +26,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Node.js.find-min-val.js">
+  <component name="RunManager" selected="Node.js.find-first-unique.js">
     <configuration name="array-prod.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array-prod.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="find-first-unique.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/find-first-unique.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="find-min-val.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/find-min-val.js" working-dir="$PROJECT_DIR$">
@@ -35,6 +38,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.find-first-unique.js" />
         <item itemvalue="Node.js.find-min-val.js" />
         <item itemvalue="Node.js.array-prod.js" />
       </list>
@@ -51,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594878959286</updated>
       <workItem from="1594878961555" duration="1395000" />
-      <workItem from="1594940206168" duration="1686000" />
+      <workItem from="1594940206168" duration="3179000" />
     </task>
     <servers />
   </component>
@@ -63,25 +67,25 @@
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state x="4429" y="419" key="#array-prod.js/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880077095" />
-    <state width="2533" height="364" key="GridCell.Tab.0.bottom" timestamp="1594962764061">
+    <state width="2533" height="364" key="GridCell.Tab.0.bottom" timestamp="1594966906744">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594962764061" />
+    <state width="2533" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594966906744" />
     <state width="1218" height="1241" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880079036" />
-    <state width="2533" height="364" key="GridCell.Tab.0.center" timestamp="1594962764060">
+    <state width="2533" height="364" key="GridCell.Tab.0.center" timestamp="1594966906743">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594962764060" />
+    <state width="2533" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594966906743" />
     <state width="1218" height="1241" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880079035" />
-    <state width="2533" height="364" key="GridCell.Tab.0.left" timestamp="1594962764059">
+    <state width="2533" height="364" key="GridCell.Tab.0.left" timestamp="1594966906742">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594962764059" />
+    <state width="2533" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594966906742" />
     <state width="1218" height="1241" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880079034" />
-    <state width="2533" height="364" key="GridCell.Tab.0.right" timestamp="1594962764061">
+    <state width="2533" height="364" key="GridCell.Tab.0.right" timestamp="1594966906744">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594962764061" />
+    <state width="2533" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594966906744" />
     <state width="1218" height="1241" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880079035" />
     <state width="1218" height="769" key="GridCell.Tab.1.bottom" timestamp="1594920947188">
       <screen x="3440" y="23" width="3440" height="1417" />
@@ -123,9 +127,10 @@
     </state>
     <state width="1218" height="769" key="GridCell.Tab.2.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594920947189" />
     <state width="1218" height="1241" key="GridCell.Tab.2.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880079039" />
-    <state x="4758" y="440" width="803" height="582" key="find.popup" timestamp="1594879964095">
+    <state x="4758" y="440" width="803" height="582" key="find.popup" timestamp="1594964413948">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
+    <state x="4758" y="440" width="803" height="582" key="find.popup/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1594964413948" />
     <state x="4758" y="440" width="803" height="582" key="find.popup/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594879964095" />
   </component>
   <component name="XDebuggerManager">
