@@ -1,19 +1,18 @@
 function findProduct(arr) {
-  var prod = 1;
-  var prodArray= [];
-  for (let i = 0; i < arr.length; i++) {
-    prodArray[i] = prod;
-    prod = prod * arr[i]
+  var temp = 1,
+    product = [];
+  for (var i = 0; i < arr.length ; i++) {
+    product[i]  = temp;
+    temp = temp * arr[i];
   }
 
-  prod = 1;
-  for (let i = arr.length - 1; i > -1; i--) {
-    prodArray[i] *= prod;
-    prod *= arr[i]
+  temp = 1;
+  for (var i = arr.length - 1; i > -1; i--) {
+    product[i] *= temp;
+    temp *= arr[i];
   }
 
-  return prodArray
+  return product
 }
 
-console.log(findProduct([1,2,3,4]))
-// console.log(findProduct([4,6,8,0]))
+console.log(findProduct([1,3,4,5]))
