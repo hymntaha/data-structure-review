@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1567490f-db19-4980-878d-61005a7f20bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotate_array.js" beforeDir="false" afterPath="$PROJECT_DIR$/rotate_array.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Node.js.rotate_array.js">
-    <configuration name="array-prod.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array-prod.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.reArrange.js">
     <configuration name="find-first-unique.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/find-first-unique.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -39,16 +35,19 @@
     <configuration name="find-second-max-val.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/find-second-max-val.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="reArrange.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/reArrange.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="rotate_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rotate_array.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.reArrange.js" />
         <item itemvalue="Node.js.rotate_array.js" />
         <item itemvalue="Node.js.find-second-max-val.js" />
         <item itemvalue="Node.js.find-first-unique.js" />
         <item itemvalue="Node.js.find-min-val.js" />
-        <item itemvalue="Node.js.array-prod.js" />
       </list>
     </recent_temporary>
   </component>
@@ -64,7 +63,7 @@
       <updated>1594878959286</updated>
       <workItem from="1594878961555" duration="1395000" />
       <workItem from="1594940206168" duration="4763000" />
-      <workItem from="1595098516751" duration="4883000" />
+      <workItem from="1595098516751" duration="5774000" />
     </task>
     <servers />
   </component>
@@ -76,25 +75,25 @@
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state x="4429" y="419" key="#array-prod.js/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880077095" />
-    <state width="2533" height="364" key="GridCell.Tab.0.bottom" timestamp="1595109518840">
+    <state width="2533" height="364" key="GridCell.Tab.0.bottom" timestamp="1595110395002">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595109518840" />
+    <state width="2533" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395002" />
     <state width="2533" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432171" />
-    <state width="2533" height="364" key="GridCell.Tab.0.center" timestamp="1595109518838">
+    <state width="2533" height="364" key="GridCell.Tab.0.center" timestamp="1595110395002">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595109518838" />
+    <state width="2533" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395002" />
     <state width="2533" height="364" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432171" />
-    <state width="2533" height="364" key="GridCell.Tab.0.left" timestamp="1595109518837">
+    <state width="2533" height="364" key="GridCell.Tab.0.left" timestamp="1595110395001">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595109518837" />
+    <state width="2533" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395001" />
     <state width="2533" height="364" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432170" />
-    <state width="2533" height="364" key="GridCell.Tab.0.right" timestamp="1595109518839">
+    <state width="2533" height="364" key="GridCell.Tab.0.right" timestamp="1595110395002">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595109518839" />
+    <state width="2533" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395002" />
     <state width="2533" height="364" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432171" />
     <state width="1218" height="769" key="GridCell.Tab.1.bottom" timestamp="1594920947188">
       <screen x="3440" y="23" width="3440" height="1417" />
