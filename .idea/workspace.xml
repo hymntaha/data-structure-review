@@ -25,7 +25,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Node.js.mergeSortedArrays.js">
+  <component name="RunManager" selected="Node.js.findSum.js">
+    <configuration name="findSum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/findSum.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="mergeSortedArrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mergeSortedArrays.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -38,16 +41,13 @@
     <configuration name="remove-even-integers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/remove-even-integers.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="rotate_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rotate_array.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.findSum.js" />
         <item itemvalue="Node.js.mergeSortedArrays.js" />
         <item itemvalue="Node.js.remove-even-integers.js" />
         <item itemvalue="Node.js.minMax.js" />
         <item itemvalue="Node.js.reArrange.js" />
-        <item itemvalue="Node.js.rotate_array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -63,7 +63,7 @@
       <updated>1594878959286</updated>
       <workItem from="1594878961555" duration="1395000" />
       <workItem from="1594940206168" duration="4763000" />
-      <workItem from="1595098516751" duration="10539000" />
+      <workItem from="1595098516751" duration="12488000" />
     </task>
     <servers />
   </component>
@@ -75,26 +75,26 @@
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state x="4429" y="419" key="#array-prod.js/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880077095" />
-    <state width="2512" height="364" key="GridCell.Tab.0.bottom" timestamp="1595189878573">
+    <state width="2512" height="364" key="GridCell.Tab.0.bottom" timestamp="1595196452440">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="2512" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675167" />
-    <state width="2512" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595189878573" />
-    <state width="2512" height="364" key="GridCell.Tab.0.center" timestamp="1595189878572">
+    <state width="2512" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595196452440" />
+    <state width="2512" height="364" key="GridCell.Tab.0.center" timestamp="1595196452439">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="2512" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675166" />
-    <state width="2512" height="364" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595189878572" />
-    <state width="2512" height="364" key="GridCell.Tab.0.left" timestamp="1595189878571">
+    <state width="2512" height="364" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595196452439" />
+    <state width="2512" height="364" key="GridCell.Tab.0.left" timestamp="1595196452438">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="2512" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675165" />
-    <state width="2512" height="364" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595189878571" />
-    <state width="2512" height="364" key="GridCell.Tab.0.right" timestamp="1595189878572">
+    <state width="2512" height="364" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595196452438" />
+    <state width="2512" height="364" key="GridCell.Tab.0.right" timestamp="1595196452440">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="2512" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675167" />
-    <state width="2512" height="364" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595189878572" />
+    <state width="2512" height="364" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595196452440" />
     <state width="1218" height="769" key="GridCell.Tab.1.bottom" timestamp="1594920947188">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
