@@ -25,17 +25,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Node.js.reArrange.js">
-    <configuration name="find-first-unique.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/find-first-unique.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="find-min-val.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/find-min-val.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.remove-even-integers.js">
     <configuration name="find-second-max-val.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/find-second-max-val.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="minMax.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/minMax.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="reArrange.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/reArrange.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="remove-even-integers.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/remove-even-integers.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="rotate_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rotate_array.js" working-dir="$PROJECT_DIR$">
@@ -43,11 +43,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.remove-even-integers.js" />
+        <item itemvalue="Node.js.minMax.js" />
         <item itemvalue="Node.js.reArrange.js" />
         <item itemvalue="Node.js.rotate_array.js" />
         <item itemvalue="Node.js.find-second-max-val.js" />
-        <item itemvalue="Node.js.find-first-unique.js" />
-        <item itemvalue="Node.js.find-min-val.js" />
       </list>
     </recent_temporary>
   </component>
@@ -63,7 +63,7 @@
       <updated>1594878959286</updated>
       <workItem from="1594878961555" duration="1395000" />
       <workItem from="1594940206168" duration="4763000" />
-      <workItem from="1595098516751" duration="5774000" />
+      <workItem from="1595098516751" duration="9778000" />
     </task>
     <servers />
   </component>
@@ -75,26 +75,26 @@
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state x="4429" y="419" key="#array-prod.js/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880077095" />
-    <state width="2533" height="364" key="GridCell.Tab.0.bottom" timestamp="1595110395002">
+    <state width="2512" height="364" key="GridCell.Tab.0.bottom" timestamp="1595188130608">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395002" />
-    <state width="2533" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432171" />
-    <state width="2533" height="364" key="GridCell.Tab.0.center" timestamp="1595110395002">
+    <state width="2512" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675167" />
+    <state width="2512" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595188130608" />
+    <state width="2512" height="364" key="GridCell.Tab.0.center" timestamp="1595188130607">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395002" />
-    <state width="2533" height="364" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432171" />
-    <state width="2533" height="364" key="GridCell.Tab.0.left" timestamp="1595110395001">
+    <state width="2512" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675166" />
+    <state width="2512" height="364" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595188130607" />
+    <state width="2512" height="364" key="GridCell.Tab.0.left" timestamp="1595188130606">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395001" />
-    <state width="2533" height="364" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432170" />
-    <state width="2533" height="364" key="GridCell.Tab.0.right" timestamp="1595110395002">
+    <state width="2512" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675165" />
+    <state width="2512" height="364" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595188130606" />
+    <state width="2512" height="364" key="GridCell.Tab.0.right" timestamp="1595188130608">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="2533" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595110395002" />
-    <state width="2533" height="364" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595007432171" />
+    <state width="2512" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595116675167" />
+    <state width="2512" height="364" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595188130608" />
     <state width="1218" height="769" key="GridCell.Tab.1.bottom" timestamp="1594920947188">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
@@ -148,6 +148,12 @@
           <url>file://$PROJECT_DIR$/array-prod.js</url>
           <line>1</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/reArrange.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
