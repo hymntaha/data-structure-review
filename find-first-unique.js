@@ -1,17 +1,20 @@
 function findFirstUnique(arr) {
-  let start = 0;
-  let end = arr.length-1;
-  let foundElement = 0;
+  let arrToHash = {};
 
-  for (start; start < end; start++) {
-    console.log(arr[end])
-    if (arr[end] != arr[start]) {
-      foundElement = arr[start]
+  for (let i = 0; i < arr.length; i++) {
+    if (!(arr[i] in arrToHash)) {
+      arrToHash[arr[i]] = 1;
     } else {
-      end--;
+      arrToHash[arr[i]] += 1;
     }
-
   }
-  return foundElement;
+  let firstUniqueElem = 0;
+
+  for (let [key, value] of Object.entries(arrToHash)) {
+    if (value == 1) {
+      firstUniqueElem = key
+    }
+  }
+  return firstUniqueElem
 }
 console.log(findFirstUnique([9,2,3,2,6,6]))

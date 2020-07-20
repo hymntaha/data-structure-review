@@ -10,10 +10,10 @@ console.log(findMinimum([4,2,1,5,0]))
 
 // ALTERNATIVE SOLUTION
 function findMinimum2(arr) {
-  var currMin = arr[0];
-  for (let val of arr) {
-    if (val < currMin) {
-      currMin = val
+  let currMin = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < currMin) {
+      currMin = arr[i]
     }
   }
   return currMin;
