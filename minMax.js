@@ -1,7 +1,6 @@
 function maxMin(arr) {
   var result = []
   for (var i = 0; i < (Math.floor(arr.length / 2)); i++) {
-    console.log(arr[arr.length - (i + 1)])
     result.push(arr[arr.length - (i + 1)])
     result.push(arr[i])
   }
