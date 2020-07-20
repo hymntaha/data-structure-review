@@ -65,7 +65,7 @@
       <workItem from="1594878961555" duration="1395000" />
       <workItem from="1594940206168" duration="4763000" />
       <workItem from="1595098516751" duration="16192000" />
-      <workItem from="1595264150843" duration="4691000" />
+      <workItem from="1595264150843" duration="5527000" />
     </task>
     <servers />
   </component>
@@ -77,25 +77,25 @@
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state x="4429" y="419" key="#array-prod.js/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880077095" />
-    <state width="1056" height="769" key="GridCell.Tab.0.bottom" timestamp="1595271955769">
+    <state width="1185" height="364" key="GridCell.Tab.0.bottom" timestamp="1595272786196">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1056" height="769" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595271955769" />
+    <state width="1185" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595272786196" />
     <state width="1056" height="786" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380705" />
-    <state width="1056" height="769" key="GridCell.Tab.0.center" timestamp="1595271955768">
+    <state width="1185" height="364" key="GridCell.Tab.0.center" timestamp="1595272786194">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1056" height="769" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595271955768" />
+    <state width="1185" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595272786194" />
     <state width="1056" height="786" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380704" />
-    <state width="1056" height="769" key="GridCell.Tab.0.left" timestamp="1595271955767">
+    <state width="1185" height="364" key="GridCell.Tab.0.left" timestamp="1595272786193">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1056" height="769" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595271955767" />
+    <state width="1185" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595272786193" />
     <state width="1056" height="786" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380703" />
-    <state width="1056" height="769" key="GridCell.Tab.0.right" timestamp="1595271955769">
+    <state width="1185" height="364" key="GridCell.Tab.0.right" timestamp="1595272786195">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1056" height="769" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595271955769" />
+    <state width="1185" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595272786195" />
     <state width="1056" height="786" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380705" />
     <state width="1056" height="769" key="GridCell.Tab.1.bottom" timestamp="1595271955771">
       <screen x="3440" y="23" width="3440" height="1417" />
@@ -142,6 +142,10 @@
     </state>
     <state x="4758" y="440" width="803" height="582" key="find.popup/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595109314969" />
     <state x="4758" y="440" width="803" height="582" key="find.popup/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594879964095" />
+    <state x="4311" y="336" width="670" height="676" key="search.everywhere.popup" timestamp="1595272538991">
+      <screen x="3440" y="23" width="3440" height="1417" />
+    </state>
+    <state x="4311" y="336" width="670" height="676" key="search.everywhere.popup/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595272538991" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -151,12 +155,6 @@
           <line>1</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/minMax.js</url>
-          <line>1</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
