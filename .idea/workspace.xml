@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1567490f-db19-4980-878d-61005a7f20bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find-second-max-val.js" beforeDir="false" afterPath="$PROJECT_DIR$/find-second-max-val.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rotate_array.js" beforeDir="false" afterPath="$PROJECT_DIR$/rotate_array.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Node.js.find-second-max-val.js">
+  <component name="RunManager" selected="Node.js.rotate_array.js">
     <configuration name="array-prod.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array-prod.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -39,16 +39,16 @@
     <configuration name="findSum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/findSum.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="mergeSortedArrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mergeSortedArrays.js" working-dir="$PROJECT_DIR$">
+    <configuration name="rotate_array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/rotate_array.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.rotate_array.js" />
         <item itemvalue="Node.js.find-second-max-val.js" />
         <item itemvalue="Node.js.find-first-unique.js" />
         <item itemvalue="Node.js.array-prod.js" />
         <item itemvalue="Node.js.findSum.js" />
-        <item itemvalue="Node.js.mergeSortedArrays.js" />
       </list>
     </recent_temporary>
   </component>
@@ -65,7 +65,7 @@
       <workItem from="1594878961555" duration="1395000" />
       <workItem from="1594940206168" duration="4763000" />
       <workItem from="1595098516751" duration="16192000" />
-      <workItem from="1595264150843" duration="662000" />
+      <workItem from="1595264150843" duration="2024000" />
     </task>
     <servers />
   </component>
@@ -77,25 +77,25 @@
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state x="4429" y="419" key="#array-prod.js/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880077095" />
-    <state width="1056" height="786" key="GridCell.Tab.0.bottom" timestamp="1595264380705">
+    <state width="1185" height="364" key="GridCell.Tab.0.bottom" timestamp="1595267590465">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1185" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595218826967" />
+    <state width="1185" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595267590465" />
     <state width="1056" height="786" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380705" />
-    <state width="1056" height="786" key="GridCell.Tab.0.center" timestamp="1595264380704">
+    <state width="1185" height="364" key="GridCell.Tab.0.center" timestamp="1595267590463">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1185" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595218826966" />
+    <state width="1185" height="364" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595267590463" />
     <state width="1056" height="786" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380704" />
-    <state width="1056" height="786" key="GridCell.Tab.0.left" timestamp="1595264380703">
+    <state width="1185" height="364" key="GridCell.Tab.0.left" timestamp="1595267590462">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1185" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595218826965" />
+    <state width="1185" height="364" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595267590462" />
     <state width="1056" height="786" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380703" />
-    <state width="1056" height="786" key="GridCell.Tab.0.right" timestamp="1595264380705">
+    <state width="1185" height="364" key="GridCell.Tab.0.right" timestamp="1595267590464">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
-    <state width="1185" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595218826966" />
+    <state width="1185" height="364" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1595267590464" />
     <state width="1056" height="786" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595264380705" />
     <state width="1056" height="786" key="GridCell.Tab.1.bottom" timestamp="1595264380706">
       <screen x="3440" y="23" width="3440" height="1417" />
