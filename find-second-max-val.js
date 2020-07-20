@@ -1,13 +1,16 @@
-function findFirstUnique(arr) {
-  var newObj = {};
+function findSecondMaximum(arr) {
+  var max = Number.NEGATIVE_INFINITY;
+  var secondMax = Number.NEGATIVE_INFINITY;
 
-  for (var i = 0; i < arr.length-1; i++) {
-    if (arr[i] in newObj) {
-      newObj[arr[i]]++;
-    } else {
-      newObj[arr[i]] = 1;
+  for (var val of arr) {
+    if (val > max) {
+      secondMax = max;
+      max = val;
+    } else if (val > secondMax && val != max) {
+      secondMax = val;
     }
   }
-  return Object.entries(newObj)[0][0]
+  return secondMax;
 }
-console.log(findFirstUnique([ 9, 2, 3, 6,2, 6 ,9,0,3]))
+
+console.log(findSecondMaximum([9,2,3,6]))
