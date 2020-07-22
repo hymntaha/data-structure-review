@@ -107,6 +107,23 @@ class LinkedList {
     leader.next = null;
     return this;
   }
+
+  getLength(){
+    if (this.isEmpty()) {
+      return 0;
+    }
+
+    let currentNode = this.head;
+    let length = 1;
+    while (currentNode.next != null) {
+      currentNode = currentNode.next
+      length++;
+    }
+    console.log(length)
+
+    return length;
+
+  }
 }
 
 const myLinkedList = new LinkedList(10);
@@ -116,5 +133,5 @@ myLinkedList.append(23);
 myLinkedList.prepend(1);
 myLinkedList.insert(2,99)
 myLinkedList.insert(20,88)
-myLinkedList.deleteTail()
+console.log(myLinkedList.getLength())
 console.log(myLinkedList.printList())
