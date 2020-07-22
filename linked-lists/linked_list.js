@@ -89,20 +89,32 @@ class LinkedList {
   }
 
   deleteHead(){
+    if (this.isEmpty()) {
+      return this
+    }
 
+    let firstElement = this.head;
+    this.head = firstElement.next;
+    return this
   }
 
-  // remove(index) {
-  //   const leader = this.traverseToIndex(index - 1);
-  //   const unwantedNode =
-  // }
+  deleteTail() {
+    if (this.isEmpty()) {
+      return this
+    }
+    const leader = this.traverseToIndex( this.length - 2);
+    this.tail = leader;
+    leader.next = null;
+    return this;
+  }
 }
 
 const myLinkedList = new LinkedList(10);
 myLinkedList.append(5);
 myLinkedList.append(16);
+myLinkedList.append(23);
 myLinkedList.prepend(1);
 myLinkedList.insert(2,99)
 myLinkedList.insert(20,88)
-myLinkedList.remove(2)
+myLinkedList.deleteTail()
 console.log(myLinkedList.printList())
