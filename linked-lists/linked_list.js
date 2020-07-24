@@ -30,13 +30,12 @@ class LinkedList {
     this.length++;
     return this;
   }
-  printList(){
+  printList() {
     const array = [];
     let currentNode = this.head;
-
-    while (currentNode != null) {
-      array.push(currentNode);
-      currentNode = currentNode.next;
+    while(currentNode !== null){
+      array.push(currentNode.value)
+      currentNode = currentNode.next
     }
     return array;
   }
@@ -119,10 +118,29 @@ class LinkedList {
       currentNode = currentNode.next
       length++;
     }
-    console.log(length)
 
     return length;
 
+  }
+
+  reverse(){
+    if (!this.head.next) {
+      return this.head
+    }
+
+    let first = this.head;
+    this.tail = this.head;
+    let second = first.next;
+
+    while (second) {
+      const temp = second.next;
+      second.next = first;
+      first = second;
+      second = temp;
+    }
+    this.head.next = null
+    this.head = first;
+    return this;
   }
 }
 
@@ -133,5 +151,6 @@ myLinkedList.append(23);
 myLinkedList.prepend(1);
 myLinkedList.insert(2,99)
 myLinkedList.insert(20,88)
-console.log(myLinkedList.getLength())
-console.log(myLinkedList.printList())
+console.log(myLinkedList)
+console.log(myLinkedList.reverse())
+// 1 10 99
