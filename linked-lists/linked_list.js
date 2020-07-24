@@ -37,6 +37,7 @@ class LinkedList {
       array.push(currentNode.value)
       currentNode = currentNode.next
     }
+    console.log(array)
     return array;
   }
 
@@ -140,17 +141,33 @@ class LinkedList {
     }
     this.head.next = null
     this.head = first;
-    return this;
+    return this.printList();
+  }
+
+  detectLoop(){
+    let found = false;
+    let onestep = this.head;
+    let twostep = this.head;
+    while (onestep != null && twostep !== null && twostep.next != null) {
+      onestep = onestep.next;
+      twostep = twostep.next.next;
+      if (onestep == twostep) {
+        found = true;
+      }
+    }
+    console.log(found)
+    return found;
   }
 }
 
 const myLinkedList = new LinkedList(10);
-myLinkedList.append(5);
-myLinkedList.append(16);
-myLinkedList.append(23);
-myLinkedList.prepend(1);
-myLinkedList.insert(2,99)
-myLinkedList.insert(20,88)
-console.log(myLinkedList)
-console.log(myLinkedList.reverse())
+myLinkedList.append(5)
+myLinkedList.append(16)
+myLinkedList.prepend(1)
+myLinkedList.printList()
+myLinkedList.insert(2, 99)
+myLinkedList.insert(20, 88)
+myLinkedList.printList()
+myLinkedList.detectLoop()
+myLinkedList.reverse()
 // 1 10 99
