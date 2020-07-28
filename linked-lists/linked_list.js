@@ -124,7 +124,7 @@ class LinkedList {
 
   }
 
-  reverse(){
+  reverse() {
     if (!this.head.next) {
       return this.head
     }
@@ -134,13 +134,15 @@ class LinkedList {
     let second = first.next;
 
     while (second) {
-      const temp = second.next;
+      let temp = second.next;
       second.next = first;
       first = second;
       second = temp;
     }
+
     this.head.next = null
     this.head = first;
+
     return this.printList();
   }
 
@@ -158,6 +160,22 @@ class LinkedList {
     console.log(found)
     return found;
   }
+
+  findMiddleNode(){
+    if (!this.head.next) {
+      return this.head
+    }
+
+    let middleIndex;
+
+    if (this.getLength() % 2 == 0) {
+      middleIndex = this.getLength()/2;
+    } else {
+      middleIndex = Math.ceil(this.getLength() / 2);
+    }
+
+    return this.traverseToIndex(middleIndex-1)
+  }
 }
 
 const myLinkedList = new LinkedList(10);
@@ -167,7 +185,9 @@ myLinkedList.prepend(1)
 myLinkedList.printList()
 myLinkedList.insert(2, 99)
 myLinkedList.insert(20, 88)
+myLinkedList.insert(3, 11)
 myLinkedList.printList()
 myLinkedList.detectLoop()
 myLinkedList.reverse()
+myLinkedList.findMiddleNode()
 // 1 10 99
