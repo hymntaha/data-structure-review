@@ -39,6 +39,20 @@ class Queue{
     this.length--;
     return this;
   }
+
+
+  findBin(n) {
+    let myQueue = new Queue();
+    for (var i = 1; i <= n; i++) {
+      myQueue.enqueue(this.decToBin(i));
+    }
+
+    return myQueue;
+  }
+
+  decToBin(dec) {
+    return (dec >>> 0).toString(2);
+  }
 }
 
 const myQueue = new Queue();
@@ -48,3 +62,4 @@ myQueue.enqueue('Pippen');
 myQueue.enqueue('Rodman')
 myQueue.peek();
 myQueue.dequeue();
+console.log(myQueue.findBin(10))
