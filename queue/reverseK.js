@@ -1,0 +1,4 @@
+function reverseK(queue, key) {
+
+}
+
