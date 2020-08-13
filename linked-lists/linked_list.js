@@ -23,6 +23,10 @@ class LinkedList {
     return this;
   }
 
+  getHead(){
+    return this.head;
+  }
+
   prepend(value) {
     const newNode = new Node(value);
     newNode.next = this.head;
@@ -150,14 +154,15 @@ class LinkedList {
     let found = false;
     let onestep = this.head;
     let twostep = this.head;
+
     while (onestep != null && twostep !== null && twostep.next != null) {
       onestep = onestep.next;
       twostep = twostep.next.next;
+
       if (onestep == twostep) {
         found = true;
       }
     }
-    console.log(found)
     return found;
   }
 
@@ -178,16 +183,32 @@ class LinkedList {
   }
 }
 
-const myLinkedList = new LinkedList(10);
-myLinkedList.append(5)
-myLinkedList.append(16)
-myLinkedList.prepend(1)
-myLinkedList.printList()
-myLinkedList.insert(2, 99)
-myLinkedList.insert(20, 88)
-myLinkedList.insert(3, 11)
-myLinkedList.printList()
-myLinkedList.detectLoop()
-myLinkedList.reverse()
-myLinkedList.findMiddleNode()
+// const myLinkedList = new LinkedList(10);
+// myLinkedList.append(5)
+// myLinkedList.append(16)
+// myLinkedList.prepend(1)
+// myLinkedList.printList()
+// myLinkedList.insert(2, 99)
+// myLinkedList.insert(20, 88)
+// myLinkedList.insert(3, 11)
+// myLinkedList.printList()
+// myLinkedList.reverse()
+// myLinkedList.findMiddleNode()
 // 1 10 99
+let list = new LinkedList();
+list.append(21);
+list.append(14);
+list.append(7);
+let head = list.getHead();
+let node = list.getHead();
+console.log(head)
+for(var i=0; i<4; i++){
+  if(node.next == null){
+    node.next = head.next;
+    break;
+  }
+  node = node.next
+}
+
+console.log(list)
+console.log(list.detectLoop())

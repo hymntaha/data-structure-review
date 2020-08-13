@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1567490f-db19-4980-878d-61005a7f20bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/queue/reverseK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/twoStacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trees/binary_search_tree.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-lists/linked_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked-lists/linked_list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trees/binary_search_tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/trees/binary_search_tree.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +33,11 @@
       <recent name="$PROJECT_DIR$/arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.twoStacks.js">
-    <configuration name="linked_list.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/linked-lists/linked_list.js" working-dir="$PROJECT_DIR$/linked-lists">
+  <component name="RunManager" selected="Node.js.linked_list.js">
+    <configuration name="binary_search_tree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/trees/binary_search_tree.js" working-dir="$PROJECT_DIR$/trees">
       <method v="2" />
     </configuration>
-    <configuration name="minMax.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/arrays/minMax.js" working-dir="$PROJECT_DIR$">
+    <configuration name="linked_list.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/linked-lists/linked_list.js" working-dir="$PROJECT_DIR$/linked-lists">
       <method v="2" />
     </configuration>
     <configuration name="queue_linked_list.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/queue/queue_linked_list.js" working-dir="$PROJECT_DIR$/queue">
@@ -52,11 +51,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.linked_list.js" />
+        <item itemvalue="Node.js.binary_search_tree.js" />
         <item itemvalue="Node.js.twoStacks.js" />
         <item itemvalue="Node.js.queue_linked_list.js" />
         <item itemvalue="Node.js.stack_linked_list.js" />
-        <item itemvalue="Node.js.linked_list.js" />
-        <item itemvalue="Node.js.minMax.js" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +78,8 @@
       <workItem from="1595453319559" duration="3250000" />
       <workItem from="1595526408492" duration="8068000" />
       <workItem from="1595887840052" duration="12342000" />
-      <workItem from="1596495921015" duration="1353000" />
+      <workItem from="1596495921015" duration="3789000" />
+      <workItem from="1597266162048" duration="3350000" />
     </task>
     <servers />
   </component>
@@ -91,33 +91,33 @@
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state x="4429" y="419" key="#array-prod.js/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1594880077095" />
-    <state width="2127" height="245" key="GridCell.Tab.0.bottom" timestamp="1596496000893">
+    <state width="1922" height="257" key="GridCell.Tab.0.bottom" timestamp="1597269732669">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="1091" height="364" key="GridCell.Tab.0.bottom/0.23.1680.978@0.23.1680.978" timestamp="1595354453372" />
     <state width="2127" height="245" key="GridCell.Tab.0.bottom/0.23.3440.1368/-1680.23.1680.1027@0.23.3440.1368" timestamp="1596151937712" />
-    <state width="2127" height="245" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1596496000893" />
+    <state width="1922" height="257" key="GridCell.Tab.0.bottom/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1597269732669" />
     <state width="2391" height="364" key="GridCell.Tab.0.bottom/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595287407915" />
-    <state width="2127" height="245" key="GridCell.Tab.0.center" timestamp="1596496000891">
+    <state width="1922" height="257" key="GridCell.Tab.0.center" timestamp="1597269732668">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="1091" height="364" key="GridCell.Tab.0.center/0.23.1680.978@0.23.1680.978" timestamp="1595354453372" />
     <state width="2127" height="245" key="GridCell.Tab.0.center/0.23.3440.1368/-1680.23.1680.1027@0.23.3440.1368" timestamp="1596151937711" />
-    <state width="2127" height="245" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1596496000891" />
+    <state width="1922" height="257" key="GridCell.Tab.0.center/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1597269732668" />
     <state width="2391" height="364" key="GridCell.Tab.0.center/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595287407914" />
-    <state width="2127" height="245" key="GridCell.Tab.0.left" timestamp="1596496000890">
+    <state width="1922" height="257" key="GridCell.Tab.0.left" timestamp="1597269732667">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="1091" height="364" key="GridCell.Tab.0.left/0.23.1680.978@0.23.1680.978" timestamp="1595354453371" />
     <state width="2127" height="245" key="GridCell.Tab.0.left/0.23.3440.1368/-1680.23.1680.1027@0.23.3440.1368" timestamp="1596151937710" />
-    <state width="2127" height="245" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1596496000890" />
+    <state width="1922" height="257" key="GridCell.Tab.0.left/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1597269732667" />
     <state width="2391" height="364" key="GridCell.Tab.0.left/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595287407913" />
-    <state width="2127" height="245" key="GridCell.Tab.0.right" timestamp="1596496000892">
+    <state width="1922" height="257" key="GridCell.Tab.0.right" timestamp="1597269732668">
       <screen x="3440" y="23" width="3440" height="1417" />
     </state>
     <state width="1091" height="364" key="GridCell.Tab.0.right/0.23.1680.978@0.23.1680.978" timestamp="1595354453372" />
     <state width="2127" height="245" key="GridCell.Tab.0.right/0.23.3440.1368/-1680.23.1680.1027@0.23.3440.1368" timestamp="1596151937711" />
-    <state width="2127" height="245" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1596496000892" />
+    <state width="1922" height="257" key="GridCell.Tab.0.right/0.23.3440.1368/3440.23.3440.1417/2503.1463.1680.1027@3440.23.3440.1417" timestamp="1597269732668" />
     <state width="2391" height="364" key="GridCell.Tab.0.right/0.23.3440.1417/3440.23.3440.1417/2503.1463.1680.978@3440.23.3440.1417" timestamp="1595287407915" />
     <state width="2127" height="512" key="GridCell.Tab.1.bottom" timestamp="1595877811373">
       <screen x="3440" y="23" width="3440" height="1417" />
