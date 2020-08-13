@@ -53,6 +53,12 @@ class BinarySearchTree{
     }
     return false;
   }
+
+  remove(value) {
+    if (!this.root) {
+      return false;
+    }
+  }
 }
 
 
