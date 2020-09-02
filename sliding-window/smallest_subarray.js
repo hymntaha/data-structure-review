@@ -1,18 +1,17 @@
 const smallest_subarray_with_given_sum = function (s, arr) {
-  let windowStart = 0;
-  let windowEnd = 0;
-  let minLength = Infinity;
-  let windowTotal = 0;
+  let windowStart = 0, windowEnd = 0, minLength = Infinity, currTotal = 0;
 
   for (windowEnd; windowEnd < arr.length; windowEnd++) {
-    windowTotal += arr[windowEnd];
+    currTotal += arr[windowEnd];
 
-    while (windowTotal >= s) {
-      minLength = Math.min(minLength, windowEnd - windowStart + 1);
-      windowTotal -= arr[windowStart];
+    while (currTotal >= s) {
+      minLength = Math.min(minLength, windowEnd - windowStart + 1)
+      currTotal -= arr[windowStart];
       windowStart++;
+
     }
   }
+
   if (minLength == Infinity) {
     return 0;
   }
