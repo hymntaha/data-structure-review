@@ -6,11 +6,12 @@ function longest_substring_with_k_distinct(str, k) {
 
   for (windowEnd; windowEnd < str.length; windowEnd++) {
     const rightChar = str[windowEnd];
+
     if (!(rightChar in chars)) {
       chars[rightChar] = 0
     }
 
-    chars[rightChar] += 1;
+    chars[rightChar] +=1;
 
     while (Object.keys(chars).length > k) {
       const leftChar = str[windowStart];
@@ -18,10 +19,10 @@ function longest_substring_with_k_distinct(str, k) {
       if (chars[leftChar] === 0) {
         delete chars[leftChar];
       }
-      windowStart += 1;
+      windowStart +=1;
     }
-    maxLength = Math.max(maxLength, windowEnd-windowStart +1)
 
+    maxLength = Math.max(maxLength, windowEnd-windowStart+1)
   }
 
   return maxLength;
