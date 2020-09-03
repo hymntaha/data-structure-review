@@ -7,6 +7,7 @@ const non_repeat_substring = function(str) {
   for (windowEnd; windowEnd < str.length; windowEnd++) {
     const rightChar = str[windowEnd];
     if (rightChar in char) {
+
       windowStart = Math.max(windowStart, char[rightChar]+1)
     }
     char[rightChar] = windowEnd;
