@@ -20,4 +20,4 @@ const triplet_with_smaller_sum = function(arr, target) {
 };
 
 console.log(triplet_with_smaller_sum( [-1, 4, 2, 1, 3], 5))
-console.log(triplet_with_smaller_sum( [-1, 0, 2, 3], 3))
+// console.log(triplet_with_smaller_sum( [-1, 0, 2, 3], 3))
