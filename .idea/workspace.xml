@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1567490f-db19-4980-878d-61005a7f20bc" name="Default Changelist" comment="" />
+    <list default="true" id="1567490f-db19-4980-878d-61005a7f20bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/fibonacci.js" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/fibonacci.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +35,11 @@
       <recent name="$PROJECT_DIR$/arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.first_occurance.js">
+  <component name="RunManager" selected="Node.js.fibonacci.js">
     <configuration name="count_vowels.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/recursion/count_vowels.js" working-dir="$PROJECT_DIR$/recursion">
+      <method v="2" />
+    </configuration>
+    <configuration name="fibonacci.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/recursion/fibonacci.js" working-dir="$PROJECT_DIR$/recursion">
       <method v="2" />
     </configuration>
     <configuration name="find_square.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/recursion/find_square.js" working-dir="$PROJECT_DIR$/recursion">
@@ -45,16 +51,13 @@
     <configuration name="first_occurance.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/recursion/first_occurance.js" working-dir="$PROJECT_DIR$/recursion">
       <method v="2" />
     </configuration>
-    <configuration name="triplet_with_smaller_sum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sliding-window/triplet_with_smaller_sum.js" working-dir="$PROJECT_DIR$/sliding-window">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.fibonacci.js" />
         <item itemvalue="Node.js.first_occurance.js" />
         <item itemvalue="Node.js.find_square.js" />
         <item itemvalue="Node.js.count_vowels.js" />
         <item itemvalue="Node.js.find_subarrays.js" />
-        <item itemvalue="Node.js.triplet_with_smaller_sum.js" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +93,7 @@
       <workItem from="1600033678960" duration="145000" />
       <workItem from="1600107851184" duration="26808000" />
       <workItem from="1600711275016" duration="3742000" />
+      <workItem from="1600724355591" duration="753000" />
     </task>
     <servers />
   </component>
