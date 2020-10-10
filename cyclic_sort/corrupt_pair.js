@@ -14,7 +14,6 @@ const find_corrupt_numbers = function(nums) {
     if (nums[i] !==i + 1) {
       return [nums[i], i+1]
     }
-
   }
 
   return [-1, -1];
