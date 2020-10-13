@@ -1,0 +1,23 @@
+{
+  "name": "data-structure-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hymntaha/data-structure-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hymntaha/data-structure-review/issues"
+  },
+  "homepage": "https://github.com/hymntaha/data-structure-review#readme",
+  "dependencies": {
+    "collections": "^5.1.12"
+  }
+}
