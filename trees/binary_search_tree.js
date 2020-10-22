@@ -4,7 +4,6 @@ class Node{
     this.left = null;
     this.right = null;
   }
-
 }
 
 class BST {
